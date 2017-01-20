@@ -20,9 +20,4 @@ public class UserService implements IUserService{
     public User getUserById(int userId) {
         return userMapper.selectByPrimaryKey(userId);
     }
-
-    //    @Override
-//    public User getUserById(int userId) {
-//        return this.userMapper.selectByPrimaryKey(userId);
-//    }
 }
